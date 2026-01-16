@@ -27,3 +27,6 @@ dist-ssr
 .env
 .env.local
 .env.*.local
+
+# Vite generated files
+src/vite-env.d.ts
