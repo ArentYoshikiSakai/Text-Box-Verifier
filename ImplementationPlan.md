@@ -16,7 +16,7 @@ LLM（私など）に対して、一度に全ての要件を投げるとコン�
 以下の要件に従って、新しいWebアプリケーションの初期設定ファイルの内容を作成してください。
 
 ## 技術スタック
-- Vite (React、Typescript)
+- Vite (React、TypeScript)
 - Tailwind CSS (スタイリング用)
 - @google/generative-ai (Gemini API用)
 
