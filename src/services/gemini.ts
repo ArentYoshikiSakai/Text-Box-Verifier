@@ -52,7 +52,7 @@ export async function extractTextFromImage(
         const genAI = new GoogleGenerativeAI(apiKey);
 
         // モデルの取得（画像処理が可能なモデル）
-        const model = genAI.getGenerativeModel({ model: 'gemini-1.5-flash' });
+        const model = genAI.getGenerativeModel({ model: 'gemini-2.5-pro' });
 
         // 画像をBase64に変換
         const base64Data = await fileToBase64(file);
